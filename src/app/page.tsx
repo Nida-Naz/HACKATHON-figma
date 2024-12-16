@@ -1,8 +1,7 @@
 "use client"
 import Image from "next/image";
-import PromotionalHeader from "./components/Promotional";
-import CardDemo from "./components/Card"
-import ProductCard from "./components/Productcard";
+import PromotionalHeader from "./components/Promotional"
+  import ProductCards from "./components/ProductCard";
 
 export default function Home() {
   return (
@@ -11,7 +10,7 @@ export default function Home() {
    
     <PromotionalHeader/>
     <div>
-    <ProductCard/>
+    <ProductCards/>
     
     </div>
     

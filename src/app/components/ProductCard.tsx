@@ -1,6 +1,6 @@
 import React from "react";
 
-const ProductCard = () => {
+const ProductCards = () => {
   return (
     <div className="flex flex-col gap-10 p-6 items-center">
       {/* Featured Products */}
@@ -131,4 +131,4 @@ const ProductCard = () => {
   );
 };
 
-export default ProductCard;
+export default ProductCards;
