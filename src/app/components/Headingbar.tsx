@@ -19,3 +19,4 @@ const Headingbar = () => {
 }
 
 export default Headingbar
+

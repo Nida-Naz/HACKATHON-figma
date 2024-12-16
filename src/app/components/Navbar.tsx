@@ -1,6 +1,6 @@
-import React from "react";
+
 import { IoSearchOutline } from "react-icons/io5";
-const navbar: React.FC = () => {
+const Navbar = () => {
   return (
     <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -23,4 +23,4 @@ const navbar: React.FC = () => {
   );
 };
 
-export default navbar;
+export default Navbar;
