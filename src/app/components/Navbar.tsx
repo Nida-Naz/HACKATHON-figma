@@ -1,4 +1,5 @@
 
+import Link from "next/link";
 import { IoSearchOutline } from "react-icons/io5";
 const Navbar = () => {
   return (
@@ -9,12 +10,12 @@ const Navbar = () => {
           <span className="ml-3 text-xl font-semibold">Hekto</span>
         </a>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <a className="mr-5 hover:text-gray-900">Home</a>
-          <a className="mr-5 hover:text-gray-900">Pages</a>
-          <a className="mr-5 hover:text-gray-900">Products</a>
-          <a className="mr-5 hover:text-gray-900">Blog</a>
-          <a className="mr-5 hover:text-gray-900">Shop</a>
-          <a className="mr-5 hover:text-gray-900">Contact</a>
+          <Link href={"/home"} className="mr-5 text-[#FB2E86]">Home</Link>
+          <Link href={"/"} className="mr-5 text-[#0D0E43] ">Pages</Link >
+          <Link href={"/products"} className="mr-5 text-[#0D0E43] ">Products</Link >
+          <Link href={"/blogs"}  className="mr-5 text-[#0D0E43] ">Blog</Link >
+          <Link href={"/shop"} className="mr-5 text-[#0D0E43]">Shop</Link > 
+          <Link href={"/contact"} className="mr-5 text-[#0D0E43] ">Contact</Link >
         </nav>
         <input type="text" placeholder="search here" className="w-[200px]"></input>
         <IoSearchOutline />
